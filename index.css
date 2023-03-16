@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -156,12 +157,16 @@ header {
     line-height: 60px;
     cursor: pointer;
     transition: all 0.5s ease-in-out;
+    margin-top: 100px;
 
 }
 #hero .contentbox p{
+    font-family: 'Prata', serif;
     font-size: 16px;
     padding-bottom: 30px;
     line-height: 30px;
+    color: #fff;
+
 }
 #hero .contentbox a{
     padding: 13px 25px;
@@ -401,6 +406,17 @@ transition: all 0.3s ease;
         margin: 0px 20px;
     }
 }
+@media(max-width: 1250px){
+    .product{
+        width: 208px;
+        height: 96%;
+    }
+}
+@media(max-width: 1190px){
+    .product{
+        width: 207px;
+    }
+}
 
 @media(max-width: 1090px) {
     #menu-icon {
@@ -450,6 +466,8 @@ transition: all 0.3s ease;
 
     }
 }
+
+
 @media screen and (max-width : 768px) {
     .footer-col{
         width: 50%;
@@ -459,5 +477,22 @@ transition: all 0.3s ease;
 @media(max-width : 560px){
     .footer-col{
         width: 100%;
+    }
+
+    .product{
+        width: 330px;
+        height: 25%;
+    }
+    .containerr{
+        margin-top: 600px;
+    }
+    #hero{
+        margin-top: 97px;
+    }
+    #hero .contentbox h1{
+        font-size: 56px;
+    }
+    .footer{
+        margin-top: 730px;
     }
 }
